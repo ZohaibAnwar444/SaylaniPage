@@ -1,0 +1,125 @@
+.footer{
+    background-image: url();
+    background-position: initial !important;
+    background-size: initial !important;
+    background-repeat: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: rgb(37, 39, 46) !important;
+    overflow: auto;
+}
+@media (min-width: 1200px){
+.container.pz {
+    width: 1170px;
+    padding-bottom: 40px !important;
+    padding-top: 70px !important;
+}
+}
+@media (min-width: 992px){
+.col-md-22{
+    width: 30.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+}
+.widget {
+    margin-bottom: 0px;
+    color: #bbb;
+}
+.widget>p{
+    margin-bottom: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.widget>ul{
+    margin-top: 5px !important;
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.widget>ul>li{
+    
+    padding-bottom: 5px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin: 0px !important
+}
+.widget>ul>li>i{
+    color: #427900 !important;
+    margin-right: 5px !important;
+   
+}
+.widget>h5{
+    border-bottom: 1px solid #444;
+        margin-top: 0px;
+        color: #fff;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        position: relative;
+        font-family: 'Merriweather', serif;
+        font-weight: 600;
+        line-height: 1.42857143;
+        font-size: 14px;
+}
+.widget>h5::after{
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: #427900;
+}
+.scrolltop{
+    background: rgba(0, 0, 0, 0.1);
+    bottom: 15px;
+    display: none;
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 99999;
+    display: inline;
+}
+.scrolltop>i{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 42px;
+}
+.scrolltop>i::before{
+    content: "\f106";
+}
+.scrolltop>i::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.last{
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+}
+.footer-bottom{
+    background-color: #316DD9 !important;
+}
+.col-md-6>p{
+    color: white;
+}
+.border{
+    margin: 0px !important;
+}

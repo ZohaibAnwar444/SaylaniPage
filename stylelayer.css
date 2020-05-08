@@ -1,0 +1,85 @@
+.layer{
+    background-position: 50% -55px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: #316DC3;
+}
+.layer::before{
+    background-color: rgba(36, 79, 242, 0.8) !important;
+    background: rgba(17, 17, 17, 0.5) none repeat scroll 0 0;
+    content: " ";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+@media (min-width: 1200px){
+.container-pt{
+    padding-bottom: 80px !important;
+    padding-top: 80px !important;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media (min-width: 992px){
+.col-md-4 {
+    width: 22%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+.funfact{
+    text-align: center;
+}
+.funfact>h2 {
+    position: relative;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    font-size: 3rem !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    line-height: 1.42857143;
+    font-family: 'Merriweather', serif;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+.funfact>h5{
+    font-weight: 600 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.funfact>h5>span{
+    font-size: 18px;
+    color: rgb(0, 255, 0);
+    font-weight: 600 !important;
+}
